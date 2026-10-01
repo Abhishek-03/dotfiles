@@ -1,0 +1,7 @@
+.DS_Store
+config/evs/
+config/gh/hosts.yml
+config/github-copilot/*.db*
+config/opencode/node_modules/
+config/raycast/
+config/spotatui/.spotify_token_cache_*.json
