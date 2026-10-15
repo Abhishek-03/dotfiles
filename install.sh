@@ -32,6 +32,7 @@ for app in fish gh git github-copilot kitty neofetch nvim opencode spotatui zed;
 done
 check_link "$repo/config/tmux/oh-my-tmux/.tmux.conf" "$HOME/.tmux.conf"
 check_link "$repo/config/tmux/tmux.conf.local" "$HOME/.tmux.conf.local"
+check_link "$repo/config/zsh/.zshrc" "$HOME/.zshrc"
 
 [ "$failed" -eq 0 ] || exit 1
 
@@ -40,3 +41,4 @@ for app in fish gh git github-copilot kitty neofetch nvim opencode spotatui zed;
 done
 link "$repo/config/tmux/oh-my-tmux/.tmux.conf" "$HOME/.tmux.conf"
 link "$repo/config/tmux/tmux.conf.local" "$HOME/.tmux.conf.local"
+link "$repo/config/zsh/.zshrc" "$HOME/.zshrc"

@@ -2,7 +2,7 @@
 
 Portable macOS/Linux app configuration copied from `~/.config`.
 
-Included: Fish, Git CLI, GitHub CLI, GitHub Copilot JetBrains instructions, Kitty, Neofetch, Neovim, OpenCode, Spotatui, tmux, and Zed.
+Included: Fish, Git CLI, GitHub CLI, GitHub Copilot JetBrains instructions, Kitty, Neofetch, Neovim, OpenCode, Spotatui, tmux, Zed, and the portable portion of the Zsh configuration.
 
 Run `./install.sh` after installing the apps you use. It creates absolute symlinks and refuses to replace any existing file or directory. Tmux is linked through `~/.tmux.conf` and `~/.tmux.conf.local`, which works on both macOS and Linux.
 
